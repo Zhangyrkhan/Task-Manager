@@ -1,0 +1,55 @@
+body{
+    background-color: #6C717B;
+    margin: 0;
+    font-family: "Comfortaa", sans-serif;
+}
+
+a{
+    text-decoration: none;
+
+}
+.container{
+    margin:0px 160px;
+}
+.header-line{
+    padding: 5px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1B1D21;
+    border-radius: 10vw;
+}
+
+.header-logo{
+    margin-left: 20px;
+}
+
+.header-logo-text{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    transition: color 0.2s linear;
+}
+.header-logo-text:hover{
+    color: #7864F4;
+}
+.sign-button{
+    font-size: 14px;
+
+}
+
+.sign-item{
+    color: #fff;
+    font-weight: 700;
+    padding: 5px;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    margin-right: 25px;
+    transition: border 0.2s linear, color 0.2s linear;
+}
+.sign-item:hover{
+    color: #7864F4;
+    border-color: #7864F4;
+}
